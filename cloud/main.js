@@ -1,4 +1,4 @@
-require("main_akshit.js");
+require("./main_akshit.js");
 
 
 
