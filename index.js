@@ -15,10 +15,10 @@ var api = new ParseServer({
   //mongodb://heroku_4vbgvfdb:bt6m3ebnht4ck11nhn3cmuv8nr@ds033015.mlab.com:33015/heroku_4vbgvfdb
   databaseURI: databaseUri || '',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || '',
-  masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
+  appId: process.env.APP_ID || 'VwdMOwyrX5cJ1BIx9XVlY5j2AMt0VeiD68G9rReW',
+  masterKey: process.env.MASTER_KEY || 'lHtQ4rPwNP09UmJYrhFRpeRSrpfXhZGULkKmqDgL', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://vitalworklife.herokuapp.com/parse',  // Don't forget to change to https if needed
-  fileKey: process.env.FILE_KEY || '',
+  fileKey: process.env.FILE_KEY || '4a3d6059-9339-4216-afdc-b7eefad56296',
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
